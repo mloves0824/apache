@@ -1,4 +1,4 @@
-FROM ubuntu:latest 
+FROM 192.168.0.138:5000/ubuntu14.04-sshd:latest
 MAINTAINER Bibin Wilson <bibin.w@hcl.com> 
 RUN apt-get update
 RUN apt-get -y upgrade
